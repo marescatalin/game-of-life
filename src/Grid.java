@@ -9,8 +9,8 @@ public class Grid {
         this.cols = cols;
         this.grid = initialiseGrid();
     }
-    
 
+    // Populate grid with cells
     public Cell[][] initialiseGrid(){
         Cell[][] grid = new Cell[this.rows][this.cols];
         for (int row = 0; row < this.rows; row ++)
