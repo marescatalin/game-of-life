@@ -13,7 +13,7 @@ public class NeighbourCalculator {
             }
         }
     }
-    
+
     // Check neighbours around a cell
     public int checkNeighbours(int xPos, int yPos){
         int neighbours = 0;

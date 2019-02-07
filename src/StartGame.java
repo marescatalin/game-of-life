@@ -17,15 +17,11 @@ public class StartGame {
                     int neighbours = oldGrid[row][col].neighbours;
                     boolean cellState = oldGrid[row][col].cellState;
                     this.grid[row][col].cellState = applyRule(neighbours,cellState);
-                    System.out.print(this.grid[row][col].cellState);
-                    System.out.print(" ");
                 }
-                System.out.println(" ");
             }
             NeighbourCalculator calculator = new NeighbourCalculator(this.grid);
             calculator.allocateNeighbours();
             oldGrid = createOldGrid(this.grid);
-            System.out.println("---------------------");
         }
         return this.grid;
     }
