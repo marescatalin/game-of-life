@@ -1,5 +1,7 @@
 ## Game of Life
 
+
+
 `Grid gameOfLife = new Grid(3,3);`
 Declaring a grid of size 3X3
 
