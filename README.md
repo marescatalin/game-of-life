@@ -14,4 +14,4 @@ Declaring a grid of size 3X3
  
  `StartGame newGame = new StartGame(gameOfLife.grid,2);
  newGame.finalGrid();`
- Start game with number of iterations 2 and return the final grid
+ Start game with number of iterations 2 and return the final grid configuration to terminal output
